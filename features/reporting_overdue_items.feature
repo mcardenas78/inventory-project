@@ -6,4 +6,4 @@ Feature: Reporting Overdue Items
 Scenario: view report with all overdue items
   When I go to the reports tab
   And I click on "Overdue Items"
-  Then I should see a report showing all overdue items and who has them
+  Then I should see a report showing all overdue items and the contact information for the customer who has them
